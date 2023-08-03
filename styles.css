@@ -1,0 +1,112 @@
+body {
+    background-color: #121721;
+    font-family: Arial, sans-serif;
+}
+li{
+    font-size: x-large;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #000;
+    padding: 20px;
+    border-radius: 35px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.4);
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+
+h1 {
+    color: #999;
+    margin-bottom: 20px;
+    
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+input[type="text"] {
+    width: 75%;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 25px;
+    box-shadow:   5px rgba(0, 0, 5, 0.2);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    font-size: x-large;
+
+}
+
+button {
+    padding: 10px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: large;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+#clearButton{
+    background-color: red;
+
+}
+#updateButton{
+    background-color: #e7cb13;
+
+   
+}
+button:hover {
+    background-color: #45a049;
+    font-size: 20px;
+    transition:  .5s;
+
+  
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+
+
+}
+
+li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.button-section {
+    margin-top: 30px;
+}
